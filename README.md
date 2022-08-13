@@ -1,5 +1,25 @@
 ***The entire course material is the property of Nvidia, I only added my notes!***
 
+Table of contents:
+- [Disaster Risk Monitoring Using Satellite Imagery](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#disaster-risk-monitoring-using-satellite-imagery)
+  - [Flood detection](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#flood-detection)
+- [Deep Learning Model Training Workflow](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#deep-learning-model-training-workflow)
+  - [Sentine 1 data](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#sentinel-1-data-public-access)
+- [DALI](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#data-pre-processing-with-dali)
+  - [Data augmentation](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#data-augmentation)
+  - [Efficient model training](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#02---efficient-model-training)
+  - [Vision AI Pre-trained Models Supported](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#vision-ai-pre-trained-models-supported)
+- [TAO](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#tao-launcher-cli-command-line-interface-and-spec-files)
+  - [U-net](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#u-net-semantic-segmentation-model)
+- [Model Export](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#model-export)
+  - [Triton](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#introduction-to-triton-inference-server)
+  - [Model repo](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#model-repository)
+  - [Run on Triton](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#run-inference-on-triton-inference-server)
+- [Conclusion](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#conclusion)
+- 
+
+-----
+
 # Disaster Risk Monitoring Using Satellite Imagery
 > Learn how to build and deploy a deep learning model to automate the detection of flood events using satellite imagery. This workflow can be applied to lower the cost, improve the efficiency, and significantly enhance the effectiveness of various natural disaster management use cases. 
 
@@ -693,6 +713,23 @@ where:
 ## Conclusion 
 Once deployed, the Triton Inference Server can be connected to front-end applications such as those that power https://www.balcony.io/, which provides an emergency management platform that has the ability to send messages to personal devices. In terms of making the model better, improving on metrics like Intersect-Over-Union (IoU) translates to accurate flood modeling, and coupled with a time-optimized solution aids in real-time disaster response and eventual climate action. 
 
+------
 
+# Flood detection with AI
+- more about the challenge at [ETCI 2021](https://nasa-impact.github.io/etci2021/]
+- more about flood detection by AI in this blogpost: [Jumpstart Your Machine Learning Satellite Competition Submission](https://medium.com/cloud-to-street/jumpstart-your-machine-learning-satellite-competition-submission-2443b40d0a5a)
+
+files: [/flood_detection_w_AI](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery/tree/main/flood_detection_w_AI)
+
+## Citation
+'''JSON
+@inproceedings{paul2021flood,
+    title   = {Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning},
+    author  = {Sayak Paul and Siddha Ganju},
+    year    = {2021},
+    URL = {https://arxiv.org/abs/2107.08369},
+    booktitle = {NeurIPS Tackling Climate Change with Machine Learning Workshop}
+}
+'''
 
 

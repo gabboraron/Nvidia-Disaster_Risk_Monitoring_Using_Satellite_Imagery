@@ -16,7 +16,7 @@ Table of contents:
   - [Model repo](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#model-repository)
   - [Run on Triton](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#run-inference-on-triton-inference-server)
 - [Conclusion](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#conclusion)
-- 
+- [Flood detection](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery#flood-detection-with-ai)
 
 -----
 
@@ -722,7 +722,7 @@ Once deployed, the Triton Inference Server can be connected to front-end applica
 files: [/flood_detection_w_AI](https://github.com/gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery/tree/main/flood_detection_w_AI)
 
 ## Citation
-'''JSON
+```JSON
 @inproceedings{paul2021flood,
     title   = {Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning},
     author  = {Sayak Paul and Siddha Ganju},
@@ -730,6 +730,6 @@ files: [/flood_detection_w_AI](https://github.com/gabboraron/Nvidia-Disaster_Ris
     URL = {https://arxiv.org/abs/2107.08369},
     booktitle = {NeurIPS Tackling Climate Change with Machine Learning Workshop}
 }
-'''
+```
 
 

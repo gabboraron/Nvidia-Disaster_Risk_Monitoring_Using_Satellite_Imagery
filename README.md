@@ -732,4 +732,8 @@ files: [/flood_detection_w_AI](https://github.com/gabboraron/Nvidia-Disaster_Ris
 }
 ```
 
-
+Other interesting related links: 
+- https://jhui.github.io/2017/01/15/Machine-learning-nonsupervised-and-semi-supervised-learning/
+- http://floods.unosat.org/geoportal/catalog/main/home.page
+- https://www.nature.com/articles/s41598-021-86650-z
+- https://www.nvidia.com/en-us/training/
